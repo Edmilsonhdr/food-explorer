@@ -10,6 +10,14 @@ export default createGlobalStyle `
     body {
         background-color:${({ theme }) => theme.COLORS.DARK_400};
         color:${({ theme }) => theme.COLORS.LIGHT_100};
+
+        -webkit-font-smoothings: antialiased;
+    }
+
+    body, input, buton, textarea {
+        font-family: 'Poppins', sans-serif;
+        font-size:16px;
+        outline: none;
     }
 
     a {
